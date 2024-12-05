@@ -1,0 +1,8 @@
+def tail(n, num):
+    if n > num:
+        return
+    else:
+        print(n)
+        tail(n + 1, num)
+n = int(input("Enter:"))
+tail(1, n)
